@@ -85,7 +85,7 @@ namespace Snäke
                     WritePoints(Count);
 
                     //Trap Draw
-                    Point trap = dynamicPoint.CreatePoint('¤');
+                    Point trap = dynamicPoint.CreatePoint('O');
                     TrapList.Add(trap);
                     Console.ForegroundColor = ConsoleColor.Red;
                     foreach(Point trapp in TrapList){
