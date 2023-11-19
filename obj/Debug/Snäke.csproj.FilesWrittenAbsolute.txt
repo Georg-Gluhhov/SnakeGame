@@ -1,0 +1,13 @@
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.Powerup3.wav
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.Hit_Hurt4.wav
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.dcd.wav
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.Powerup4.wav
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.Powerup27.wav
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.LeaderBoard.txt
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/bin/Debug/Snäke.exe.config
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/bin/Debug/Snäke.pdb
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/bin/Debug/Snäke.exe
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.exe
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.pdb
+/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttribute.cs
