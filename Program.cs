@@ -68,7 +68,7 @@ namespace Snäke
                 if (walls.IsHit(snake)  || snake.IsHitTail() || snake.Touch(TrapList))
                 {
                     WriteGameOver();
-                  //  InputName(Count);
+
 
                     break;
                 }
@@ -111,10 +111,7 @@ namespace Snäke
                 {
                     Count += 2;
                     WritePoints(Count);
-                   // PlaySound(3);
                     Times += 10;
-
-
                 }
                 else
                 {
@@ -129,89 +126,8 @@ namespace Snäke
                 }
 
             }
-
             Console.ReadLine();
         }
-
-       
-
-
-
-
-        static void InputName(int Count)
-        {
-            Console.SetCursorPosition(86, 12);
-            Console.WriteLine("Enter your name: ");
-            Console.SetCursorPosition(86, 13);
-            string userName = Console.ReadLine();
-            Console.SetCursorPosition(86, 12);
-            Console.WriteLine("Added to leaderboard!");
-            Console.SetCursorPosition(86, 13);
-            Console.WriteLine("Name: "+userName +"  Points: "+ Count);
-
-
-            StreamWriter f = new StreamWriter(@"..\..\LeaderBoard.txt");
-            f.WriteLine('\n' + "Name:" + userName + " Points:" + Count);
-            f.Close();
-
-
-
-
-            
-        }
-        static void PlayRandomSound()
-        {
-            Random rnd1 = new Random();
-            int s = rnd1.Next(10);
-            if (s == 5)
-            {
-                System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
-                System.IO.Stream resouceStream =
-                    assembly.GetManifestResourceStream(@"Snäke.Powerup4.wav");
-                SoundPlayer player = new SoundPlayer(resouceStream);
-                player.Play();
-                player.PlaySync();
-            }
-            else
-            {
-                System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
-                System.IO.Stream resouceStream =
-                    assembly.GetManifestResourceStream(@"Snäke.Powerup3.wav");
-                SoundPlayer player = new SoundPlayer(resouceStream);
-                player.Play();
-                player.PlaySync();
-
-            }
-
-
-        }
-        static void PlaySound(int Sound)
-        {
-            if (Sound == 0)
-            {
-                System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
-                System.IO.Stream resouceStream =
-                    assembly.GetManifestResourceStream(@"Snäke.Hit_Hurt4.wav");
-                SoundPlayer player = new SoundPlayer(resouceStream);
-                player.Play();
-                player.PlaySync();
-            }
-            if (Sound == 1)
-            {
-                PlayRandomSound();
-            }
-
-            if (Sound == 3)
-            {
-                System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
-                System.IO.Stream resouceStream =
-                    assembly.GetManifestResourceStream(@"Snäke.Powerup27.wav");
-                SoundPlayer player = new SoundPlayer(resouceStream);
-                player.Play();
-            }
-        }
-
-        
 
         static void WriteGameOver()
         {
@@ -220,9 +136,8 @@ namespace Snäke
             Console.ForegroundColor = ConsoleColor.Red;
             Console.SetCursorPosition(xOffset, yOffset++);
             WriteText("============================", xOffset, yOffset++);
-            WriteText("G A M E  O V E R", xOffset + 1, yOffset++);
+            WriteText("     G A M E  O V E R", xOffset + 1, yOffset++);
             WriteText("============================", xOffset, yOffset++);
-          //  PlaySound(0);
         }
         static void WritePoints(int Count)
         {
