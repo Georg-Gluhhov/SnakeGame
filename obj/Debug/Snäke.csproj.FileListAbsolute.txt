@@ -1,7 +1,0 @@
-/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.exe
-/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.pdb
-/home/mrwoodu/Downloads/New Folder/Sn-ke-master/bin/Debug/Snäke.exe.config
-/home/mrwoodu/Downloads/New Folder/Sn-ke-master/bin/Debug/Snäke.exe
-/home/mrwoodu/Downloads/New Folder/Sn-ke-master/bin/Debug/Snäke.pdb
-/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.csproj.AssemblyReference.cache
-/home/mrwoodu/Downloads/New Folder/Sn-ke-master/obj/Debug/Snäke.csproj.CoreCompileInputs.cache
